@@ -1,4 +1,4 @@
-#1 Apa itu Flex Box ? 
+#1 Apa itu Flex Box ? (Pendahuluan)
 
 Flex Box (Flexible Box Module), "Sebuah Model Layout 1 dimensi yang dapat mengatur jarak dan penjajaran antar item dalam sebuah container."
 
@@ -62,3 +62,10 @@ Property pada Items :
 > flex-grow / flex, untuk mengatur ukuran dari si itemnya.
 > align-self, untuk mengatur 1 element di dalam barisnya yang maw diatur posisinya dimana
     (auto, flex-start, flex-end, center, baseline, stretch)
+
+
+
+
+
+#2 Apa itu Flexbox ? (Latihan)
+
