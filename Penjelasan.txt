@@ -1,0 +1,64 @@
+#1 Apa itu Flex Box ? 
+
+Flex Box (Flexible Box Module), "Sebuah Model Layout 1 dimensi yang dapat mengatur jarak dan penjajaran antar item dalam sebuah container."
+
+1 Dimensi ?
+Dengan menggunakan Flex Box, kita "hanya dapat mengatur 1 dimensi pada saat tertentu, antara baris atau kolom, tidak bisa keduanya sekaligus."
+
+2 Dimensi ? (CSS GRID)
+
+
+Flexbox Layout Module, "Sebuah modul yang menawarkan cara yang efektif untuk menyusun, mensejajarkan dan mendistribusikan jarak antar item di dalam sebuah container, meskipun ukurannya dinamis atau bahkan kita tidak tahu."
+
+
+Istilah - Istilah pada Flex Box :
+> container
+> items
+> main axis (set element elementnya secara horizontal - )
+    sumbu utama dari sebuah container yang menentukan urutan dari penempatan items secara horizontal.
+> cross axis (set element elementnya secara vertical | )
+> main size (ukuran container)
+    ukuran (width/height) dari container yang akan membuat dimensi dari itemsnya relatif terhadap main-size.
+> cross size (ukuran dari kolom)
+> main start & main end (horizontal -)
+    mulai dan berakhirnya items yang disimpan di dalam container.
+> cross start * cross end (vertical |)
+
+
+Property pada container :
+> display : flex / inline-flex
+    Membuat sebuah element parent menjadi flex-box, dan membuat element-element di dalamnya bisa berprilaku flex juga.
+> flex-direction: row | row-reverse | column | column-reverse;
+    Untuk mengatur arah dari element element di dalamnya (horizontal/vertical).
+> flex-wrap : nowrap | wrap | wrap-reverse;
+    Jika itemnya tidak cukup di dalam container maka akan turun ke bawah.
+> jurtify-content :
+        flex-start 
+        flex-end
+        center
+        space-between
+        space-around
+        space-evenly
+    Untuk mengatur rata dari element di dalamnya
+> align-items : 
+        flex-start
+        flex-end
+        center
+        stretch
+        baseline
+    Untuk mengatur kesejajaran antar item secara vertical    
+> align-content :
+        flex-start
+        flex-end
+        center
+        stretch
+        space-between
+        space-around
+    Sama seperti align-items tapi hanya berlaku apabila contentnya lebih dari 1 baris.
+
+
+Property pada Items :
+> order, untuk mengatur urutan dari element elemntnya.
+> flex-grow / flex, untuk mengatur ukuran dari si itemnya.
+> align-self, untuk mengatur 1 element di dalam barisnya yang maw diatur posisinya dimana
+    (auto, flex-start, flex-end, center, baseline, stretch)
